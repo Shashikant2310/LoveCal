@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* love cal */
+        .section {
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        h1 {
+            color: red;
+            font-size: 3.5rem;
+        }
+
+        button {
+            padding: 10px 20px 10px 20px;
+            color: white;
+            background-color: tomato;
+            border: none;
+            border-radius: 5px;
+        }
+
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- love cal -->
+    <div class="section">
+        <p class="demo">Here your Love score</p>
+        <h1 id="score"></h1>
+        <button type="button" onclick="loveScore()">Click to see</button>
+    </div>
+    <!-- love cal -->
+
+    <script src="./Functions.js"></script>
+</body>
+
+</html>
